@@ -5,7 +5,7 @@ public class Main {
 
     public static  void main(String[] args){
 
-        int N = 100000;
+        int N = 10000;
 
         System.out.println("Test for random array, size = " + N + " , random range [0, " + N + "]");
 
@@ -15,7 +15,7 @@ public class Main {
 
         SortTestHelper.testSort("SelectionSortUsingCompare", arr1);
         SortTestHelper.testSort("InsertionSort", arr2);
-        SortTestHelper.testSort("OptimisedInsertionSort", arr3);
+        SortTestHelper.testSort("InsertionSortOptimized", arr3);
 
         System.out.println("-------------");
 
@@ -27,7 +27,7 @@ public class Main {
 
         SortTestHelper.testSort("SelectionSortUsingCompare", arr1);
         SortTestHelper.testSort("InsertionSort", arr2);
-        SortTestHelper.testSort("OptimisedInsertionSort", arr3);
+        SortTestHelper.testSort("InsertionSortOptimized", arr3);
 
         System.out.println("-------------");
 
@@ -40,6 +40,6 @@ public class Main {
 
         SortTestHelper.testSort("SelectionSortUsingCompare", arr1);
         SortTestHelper.testSort("InsertionSort", arr2);
-        SortTestHelper.testSort("OptimisedInsertionSort", arr3);
+        SortTestHelper.testSort("InsertionSortOptimized", arr3);
     }
 }

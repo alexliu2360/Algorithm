@@ -1,17 +1,17 @@
 ### Test for random array, size = 100000 , random range [0, 100000]
 - SelectionSortUsingCompare : 13071ms
 - InsertionSort : 18131ms
-- OptimisedInsertionSort : 5ms
+- InsertionSortOptimized : 5ms
 -------------
 ### Test for more ordered random array, size = 100000 , random range [0,3]
 - SelectionSortUsingCompare : 9923ms
 - InsertionSort : 10612ms
-- OptimisedInsertionSort : 3ms
+- InsertionSortOptimized : 3ms
 
 ### Test for nearly ordered random array, size = 100000 , random range [0, 100000], swap time = 5
 - SelectionSortUsingCompare : 7486ms
 - InsertionSort : 1ms
-- OptimisedInsertionSort : 3ms
+- InsertionSortOptimized : 3ms
 
 ### 结论
 1. 选择排序速度最慢

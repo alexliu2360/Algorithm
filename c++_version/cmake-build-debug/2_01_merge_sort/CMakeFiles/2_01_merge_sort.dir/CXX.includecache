@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+random
+-
+
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/main.cpp
+iostream
+-
+SortTestHelper.h
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/SortTestHelper.h
+n2sort.h
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/n2sort.h
+
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/n2sort.h
+iostream
+-
+

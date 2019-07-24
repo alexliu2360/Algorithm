@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1_04_selection_sort_detect_performace.dir/main.cpp.o  -o 1_04_selection_sort_detect_performace 

@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="playAlgorithm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\1_01_selection_sort\;CMake Files\1_02_selection_sort_using_template\;CMake Files\1_03_selection_sort_generate_test_cases\;CMake Files\1_04_selection_sort_detect_performace\;CMake Files\1_05_insertion_sort\;CMake Files\1_06_insertion_sort_advance\;CMake Files\1_07_optimized_selection_sort\;CMake Files\1_08_bubble_sort\;CMake Files\1_09_shell_sort\;CMake Files\2_01_merge_sort\;CMake Files\2_02_merge_sort_advanced\;CMake Files\1_summarize\;CMake Files\2_03_merge_bottom_up\;CMake Files\2_04_quick_sort\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playAlgorithm">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/playAlgorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 playAlgorithm"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playAlgorithm/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/playAlgorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 playAlgorithm/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_01_selection_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/1_01_selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 1_01_selection_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_01_selection_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/1_01_selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 1_01_selection_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_01_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_02_selection_sort_using_template">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/1_02_selection_sort_using_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 1_02_selection_sort_using_template"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_02_selection_sort_using_template/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/1_02_selection_sort_using_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 1_02_selection_sort_using_template/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_02_selection_sort_using_template/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_03_selection_sort_generate_test_cases">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/1_03_selection_sort_generate_test_cases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 1_03_selection_sort_generate_test_cases"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_03_selection_sort_generate_test_cases/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/1_03_selection_sort_generate_test_cases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 1_03_selection_sort_generate_test_cases/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_03_selection_sort_generate_test_cases/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_04_selection_sort_detect_performace">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/1_04_selection_sort_detect_performace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 1_04_selection_sort_detect_performace"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_04_selection_sort_detect_performace/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/1_04_selection_sort_detect_performace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 1_04_selection_sort_detect_performace/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_04_selection_sort_detect_performace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_05_insertion_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/1_05_insertion_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 1_05_insertion_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_05_insertion_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/1_05_insertion_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 1_05_insertion_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_05_insertion_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_06_insertion_sort_advance">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/1_06_insertion_sort_advance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 1_06_insertion_sort_advance"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_06_insertion_sort_advance/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/1_06_insertion_sort_advance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 1_06_insertion_sort_advance/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_06_insertion_sort_advance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_07_optimized_selection_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/1_07_optimized_selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 1_07_optimized_selection_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_07_optimized_selection_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/1_07_optimized_selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 1_07_optimized_selection_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_07_optimized_selection_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_08_bubble_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/1_08_bubble_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 1_08_bubble_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_08_bubble_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/1_08_bubble_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 1_08_bubble_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_08_bubble_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_09_shell_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/1_09_shell_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 1_09_shell_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_09_shell_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/1_09_shell_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 1_09_shell_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_09_shell_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_01_merge_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/2_01_merge_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 2_01_merge_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_01_merge_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/2_01_merge_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 2_01_merge_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_01_merge_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_02_merge_sort_advanced">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/2_02_merge_sort_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 2_02_merge_sort_advanced"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_02_merge_sort_advanced/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/2_02_merge_sort_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 2_02_merge_sort_advanced/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_02_merge_sort_advanced/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_summarize">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/1_summarize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 1_summarize"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1_summarize/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/1_summarize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 1_summarize/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/1_summarize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_03_merge_bottom_up">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/2_03_merge_bottom_up" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 2_03_merge_bottom_up"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_03_merge_bottom_up/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/2_03_merge_bottom_up" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 2_03_merge_bottom_up/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_03_merge_bottom_up/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_04_quick_sort">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/2_04_quick_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 2_04_quick_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_04_quick_sort/fast">
+				<Option output="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/2_04_quick_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 2_04_quick_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/cmake-build-debug/2_04_quick_sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_01_selection_sort/main.cpp">
+			<Option target="1_01_selection_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/main.cpp">
+			<Option target="1_02_selection_sort_using_template"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/student.h">
+			<Option target="1_02_selection_sort_using_template"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_03_selection_sort_generate_test_cases/SortTestHelper.h">
+			<Option target="1_03_selection_sort_generate_test_cases"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_03_selection_sort_generate_test_cases/main.cpp">
+			<Option target="1_03_selection_sort_generate_test_cases"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_03_selection_sort_generate_test_cases/student.h">
+			<Option target="1_03_selection_sort_generate_test_cases"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_04_selection_sort_detect_performace/main.cpp">
+			<Option target="1_04_selection_sort_detect_performace"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_05_insertion_sort/main.cpp">
+			<Option target="1_05_insertion_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_06_insertion_sort_advance/main.cpp">
+			<Option target="1_06_insertion_sort_advance"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_07_optimized_selection_sort/main.cpp">
+			<Option target="1_07_optimized_selection_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_08_bubble_sort/main.cpp">
+			<Option target="1_08_bubble_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_09_shell_sort/main.cpp">
+			<Option target="1_09_shell_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_summarize/SortTestHelper.h">
+			<Option target="1_summarize"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_summarize/main.cpp">
+			<Option target="1_summarize"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/SortTestHelper.h">
+			<Option target="2_01_merge_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/main.cpp">
+			<Option target="2_01_merge_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/n2sort.h">
+			<Option target="2_01_merge_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_02_merge_sort_advanced/SortTestHelper.h">
+			<Option target="2_02_merge_sort_advanced"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_02_merge_sort_advanced/main.cpp">
+			<Option target="2_02_merge_sort_advanced"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_02_merge_sort_advanced/n2sort.h">
+			<Option target="2_02_merge_sort_advanced"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_03_merge_bottom_up/MergeSort.h">
+			<Option target="2_03_merge_bottom_up"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_03_merge_bottom_up/SortTestHelper.h">
+			<Option target="2_03_merge_bottom_up"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_03_merge_bottom_up/main.cpp">
+			<Option target="2_03_merge_bottom_up"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_03_merge_bottom_up/n2sort.h">
+			<Option target="2_03_merge_bottom_up"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_04_quick_sort/MergeSort.h">
+			<Option target="2_04_quick_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_04_quick_sort/SortTestHelper.h">
+			<Option target="2_04_quick_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_04_quick_sort/main.cpp">
+			<Option target="2_04_quick_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_04_quick_sort/n2sort.h">
+			<Option target="2_04_quick_sort"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/main.cpp">
+			<Option target="playAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_01_selection_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_01_selection_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_02_selection_sort_using_template\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_03_selection_sort_generate_test_cases/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_03_selection_sort_generate_test_cases\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_04_selection_sort_detect_performace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_04_selection_sort_detect_performace\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_05_insertion_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_05_insertion_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_06_insertion_sort_advance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_06_insertion_sort_advance\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_07_optimized_selection_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_07_optimized_selection_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_08_bubble_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_08_bubble_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_09_shell_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_09_shell_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_01_merge_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_01_merge_sort\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_02_merge_sort_advanced/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_02_merge_sort_advanced\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_summarize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_summarize\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_03_merge_bottom_up/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_03_merge_bottom_up\"/>
+		</Unit>
+		<Unit filename="/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/2_04_quick_sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_04_quick_sort\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

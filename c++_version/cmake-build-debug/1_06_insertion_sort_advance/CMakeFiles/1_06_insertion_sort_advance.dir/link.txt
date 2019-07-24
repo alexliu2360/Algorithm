@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1_06_insertion_sort_advance.dir/main.cpp.o  -o 1_06_insertion_sort_advance 

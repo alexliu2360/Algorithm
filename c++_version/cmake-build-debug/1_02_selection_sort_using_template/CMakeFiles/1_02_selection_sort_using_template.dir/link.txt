@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1_02_selection_sort_using_template.dir/main.cpp.o  -o 1_02_selection_sort_using_template 

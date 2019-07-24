@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1_03_selection_sort_generate_test_cases.dir/main.cpp.o  -o 1_03_selection_sort_generate_test_cases 

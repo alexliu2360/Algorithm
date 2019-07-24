@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2_04_quick_sort.dir/main.cpp.o  -o 2_04_quick_sort 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/main.cpp
+iostream
+-
+student.h
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/student.h
+
+/home/alexliu/Documents/code/ex/imooc/liuyubobobo/playAlgorithm/1_02_selection_sort_using_template/student.h
+iostream
+-
+string
+-
+

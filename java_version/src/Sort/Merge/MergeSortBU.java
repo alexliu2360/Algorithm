@@ -1,9 +1,9 @@
 package Sort.Merge;
 import Sort.Insertion.InsertionSortOptimized;
 
-public class MergeSortBottomUp {
+public class MergeSortBU {
 
-    private MergeSortBottomUp(){}
+    private MergeSortBU(){}
 
 
     public static void merge(Comparable[] arr, int l, int mid, int r){

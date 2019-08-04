@@ -1,11 +1,13 @@
 package Sort.Merge;
+import Sort.Insertion.InsertionSortOptimized;
 import Utils.SortTestHelper;
 
 import java.util.Arrays;
 
-public class MergeSort {
+// todo：一次性分配空间
+public class MergeSortAuxOptimized {
 
-    private MergeSort(){}
+    private MergeSortAuxOptimized(){}
 
     public static void merge(Comparable[] arr, int l,int mid, int r){
         Comparable[] aux = Arrays.copyOfRange(arr, l, r+1); // [l , r]
@@ -29,15 +31,20 @@ public class MergeSort {
     }
 
     public static void sort(Comparable[] arr, int l, int r){
-        if(l >= r)
+
+        // todo:r-l到底多少比较合适？
+        if(r - l <= 20) {
+            InsertionSortOptimized.sort(arr, l, r);
             return;
+        }
 
         int mid = (r+l)/2;
 
         sort(arr, l, mid);
         sort(arr, mid+1, r);
-        merge(arr, l, mid, r);
 
+        if(arr[mid].compareTo(arr[mid+1]) > 0)
+            merge(arr, l, mid, r);
     }
 
     public static void sort(Comparable[] arr){
@@ -46,11 +53,16 @@ public class MergeSort {
     }
 
     public static void main(String[] args){
-        int N = 10;
-        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100);
-        SortTestHelper.printArray(arr);
+        int N = 1000000;
+        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, N);
+//        SortTestHelper.printArray(arr);
+//        SortTestHelper.testSort("sort.merge.MergeSortOptimized", arr, true);
+//        SortTestHelper.printArray(arr);
+
+//        Integer[] arr = SortTestHelper.generateNearlyOrderedArray(N,5);
+        Integer[] arr1 = Arrays.copyOf(arr,arr.length);
         SortTestHelper.testSort("Sort.Merge.MergeSort", arr, true);
-        SortTestHelper.printArray(arr);
+        SortTestHelper.testSort("Sort.Merge.MergeSortOptimized", arr1, true);
         return;
     }
 }

@@ -1,6 +1,6 @@
 package Sort.Merge;
 import Sort.Insertion.InsertionSortOptimized;
-import Util.SortTestHelper;
+import Utils.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -30,6 +30,8 @@ public class MergeSortOptimized {
     }
 
     public static void sort(Comparable[] arr, int l, int r){
+
+        // todo:r-l到底多少比较合适？
         if(r - l <= 20) {
             InsertionSortOptimized.sort(arr, l, r);
             return;

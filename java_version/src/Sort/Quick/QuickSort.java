@@ -1,5 +1,5 @@
 package Sort.Quick;
-import Util.SortTestHelper;
+import Utils.SortTestHelper;
 public class QuickSort {
 
     private QuickSort(){}
@@ -11,6 +11,8 @@ public class QuickSort {
         arr[l, pivotIndex-1] < e
         arr[pivotIndex+1, r] > e
          */
+        //[优化] 随机标定点 使左右两棵树平衡
+//        swap(arr, l, (int) (Math.random() * (r - l + 1)) + l);
         Comparable e = arr[l];
         int pivotIndex = l;
         for(int i = l+1;i<=r;i++){
@@ -55,7 +57,8 @@ public class QuickSort {
         // Quick Sort也是一个O(nlogn)复杂度的算法
         // 可以在1秒之内轻松处理100万数量级的数据
         int N = 1000000;
-        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
+//        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
+        Integer[] arr = SortTestHelper.generateNearlyOrderedArray(N, 100);
 //        SortTestHelper.printArray(arr);
         SortTestHelper.testSort("Sort.Quick.QuickSort", arr, true);
 //        SortTestHelper.printArray(arr);

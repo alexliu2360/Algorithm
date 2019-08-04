@@ -1,6 +1,6 @@
 package Sort.Selection;
 
-import Util.SortTestHelper;
+import Utils.SortTestHelper;
 
 public class SelectionSortWithTestCase {
 

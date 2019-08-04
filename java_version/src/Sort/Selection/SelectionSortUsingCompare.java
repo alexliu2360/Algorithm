@@ -1,5 +1,5 @@
 package Sort.Selection;
-import Util.Student;
+import Utils.Student;
 public class SelectionSortUsingCompare {
 
     private SelectionSortUsingCompare() {}

@@ -1,6 +1,6 @@
 package Sort.Insertion;
 
-import Util.SortTestHelper;
+import Utils.SortTestHelper;
 
 // Shell排序又称作缩小增量排序
 public class InsertionShellSort {

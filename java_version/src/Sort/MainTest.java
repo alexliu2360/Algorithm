@@ -1,8 +1,6 @@
 package Sort;
 
-import java.util.Arrays;
-
-import Util.SortTestHelper;
+import Utils.SortTestHelper;
 
 public class MainTest {
 

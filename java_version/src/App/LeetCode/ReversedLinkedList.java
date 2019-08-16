@@ -1,5 +1,7 @@
 package App.LeetCode;
 
+import List.ListNode;
+
 /**
 *
     url: https://leetcode-cn.com/problems/reverse-linked-list/
@@ -15,17 +17,6 @@ package App.LeetCode;
 
 
 public class ReversedLinkedList {
-
-    public static class ListNode {
-        public int val;
-        public  ListNode next;
-
-        public ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
 
     public static class Solution {
         /**
@@ -64,22 +55,23 @@ public class ReversedLinkedList {
         }
     }
 
-    private static void test(){
+    private static void test(int listLength){
         ListNode head = new ListNode(0);
         ListNode cur = head;
-        for(int i = 1; i < 10; i++) {
+        for(int i = 1; i < listLength; i++) {
             ListNode node = new ListNode(i);
             cur.next = node;
             cur = node;
         }
         Solution s = new Solution();
         head = s.reverse(head);
+        System.out.println(head);
         head = s.reverse2(head);
         System.out.println(head);
     }
 
     public static void main(String args[]){
-       test();
+       test(10);
     }
 
 }

@@ -6,6 +6,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
 
 import java.awt.geom.NoninvertibleTransformException;
 import java.awt.print.PrinterGraphics;
+import java.nio.channels.NonReadableChannelException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Vector;
@@ -23,6 +24,13 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
             this.key = key;
             this.value = value;
             this.left = this.right = null;
+        }
+
+        public Node(Node node){
+            this.key = node.key;
+            this.value = node.value;
+            this.left = node.left;
+            this.right = node.right;
         }
     }
 
@@ -237,6 +245,15 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
             }
         }
 
+        // 删除有左右节点的
+        Node successor = new Node(minimum(node.right));
+        count ++;
+        successor.right = removeMin(node.right);
+        successor.left = node.left;
+
+        node.left = node.right = null;
+        count --;
+        return successor;
     }
 
     public static void main(String[] args) {
@@ -257,7 +274,7 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
 //            arr[i] = t;
 //        }
 //
-        BinarySearchTree<Integer,String> bst = new BinarySearchTree<Integer,String>();
+//        BinarySearchTree<Integer,String> bst = new BinarySearchTree<Integer,String>();
 //        for(int i = 0 ; i < N ; i ++)
 //            bst.insert(new Integer(arr[i]), Integer.toString(arr[i]));
 //
@@ -298,16 +315,18 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
 //        System.out.println();
 //        **/
 //
-//        BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<Integer, Integer>();
-//
-//        int N = 10;
-//        int M = 100;
-//        for(int i = 0 ; i < N ; i ++){
-//            Integer key = new Integer((int)(Math.random()*M));
-//            // 为了后续测试方便,这里value值取和key值一样
-//            bst.insert(key, key);
-//            System.out.print(key + " ");
-//        }
+        BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<Integer, Integer>();
+        Vector<Integer> vec = new Vector<Integer>();
+        int N = 10;
+        int M = 100;
+        for(int i = 0 ; i < N ; i ++){
+            Integer key = new Integer((int)(Math.random()*M));
+            // 为了后续测试方便,这里value值取和key值一样
+            bst.insert(key, key);
+            vec.add(key);
+            System.out.print(key + " ");
+        }
+        System.out.println(vec);
 //
 //        System.out.println();
 
@@ -335,22 +354,30 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
         bst.levelOrder();
         System.out.println();
         */
-        System.out.println("minimum: ");
-        System.out.println(bst.minimum());
-        System.out.println();
 
-        System.out.println("maximum: ");
-        System.out.println(bst.maximum());
-        System.out.println();
+//        System.out.println("minimum: ");
+//        System.out.println(bst.minimum());
+//        System.out.println();
+//
+//        System.out.println("maximum: ");
+//        System.out.println(bst.maximum());
+//        System.out.println();
+//
+//        System.out.println("removeMin: ");
+//        bst.removeMin();
+//        bst.inOrder();
+//        System.out.println();
+//
+//        System.out.println("removeMax: ");
+//        bst.removeMax();
+//        bst.inOrder();
+//        System.out.println();
 
-        System.out.println("removeMin: ");
-        bst.removeMin();
-        bst.inOrder();
-        System.out.println();
-
-        System.out.println("removeMax: ");
-        bst.removeMax();
-        bst.inOrder();
-        System.out.println();
+        System.out.println("remove: ");
+        for (Integer i:vec){
+            bst.remove(i);
+            bst.inOrder();
+            System.out.println();
+        }
     }
 }

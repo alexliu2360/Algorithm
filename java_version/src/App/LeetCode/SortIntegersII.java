@@ -19,62 +19,75 @@ Example
 * */
 
 public class SortIntegersII {
-    public void test() {
-        int[] arr = {5,2,3,4,1};
-        Solution s = new Solution();
-        s.sortIntegers2(arr);
-        for(int i = 0;i<arr.length;i++) {
-            System.out.println(arr[i]);
+
+
+    public static class Solution {
+        public int partition(int[] arr, int l, int r) {
+
+            int v = arr[l];
+
+            int j = l; // arr[l+1...j] < v ; arr[j+1...i) > v
+            for (int i = l + 1; i <= r; i++)
+                if (arr[i] < v) {
+                    j++;
+                    swap(arr, j, i);
+                }
+
+            swap(arr, l, j);
+
+            return j;
         }
-    }
 
-    public int partition(int[] arr, int l, int r) {
+        // 递归使用快速排序,对arr[l...r]的范围进行排序
+        public void sort(int[] arr, int l, int r) {
 
-        int v = arr[l];
+            if (l >= r)
+                return;
 
-        int j = l; // arr[l+1...j] < v ; arr[j+1...i) > v
-        for (int i = l + 1; i <= r; i++)
-            if (arr[i] < v) {
-                j++;
-                swap(arr, j, i);
-            }
+            int p = partition(arr, l, r);
+            sort(arr, l, p - 1);
+            sort(arr, p + 1, r);
+        }
 
-        swap(arr, l, j);
+        public void sort(int[] arr) {
 
-        return j;
-    }
+            int n = arr.length;
+            sort(arr, 0, n - 1);
+        }
 
-    // 递归使用快速排序,对arr[l...r]的范围进行排序
-    public void sort(int[] arr, int l, int r) {
+        public void swap(int[] arr, int i, int j) {
+            int t = arr[i];
+            arr[i] = arr[j];
+            arr[j] = t;
+        }
 
-        if (l >= r)
-            return;
-
-        int p = partition(arr, l, r);
-        sort(arr, l, p - 1);
-        sort(arr, p + 1, r);
-    }
-
-    public void sort(int[] arr) {
-
-        int n = arr.length;
-        sort(arr, 0, n - 1);
-    }
-
-    public void swap(int[] arr, int i, int j) {
-        int t = arr[i];
-        arr[i] = arr[j];
-        arr[j] = t;
-    }
-
-    public class Solution {
-        /**
-         * @param A: an integer array
-         * @return: nothing
-         */
-        public void sortIntegers2(int[] A) {
+        public void sortIntegers(int[] A) {
+            /**
+             * @param A: an integer array
+             * @return: nothing
+             */
             sort(A);
         }
+    }
+
+
+    private static void test() {
+        int[] arr = {5, 2, 3, 4, 1};
+        Solution s = new Solution();
+        s.sortIntegers(arr);
+        StringBuilder str = new StringBuilder("");
+
+        for (int n:arr) {
+            str.append(n);
+            str.append(' ');
+        }
+
+        System.out.println(str.toString());
+    }
+
+
+    public static void main(String[] args) {
+        test();
     }
 
 }

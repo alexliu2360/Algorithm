@@ -1,9 +1,6 @@
 package App.LeetCode;
 
-import Utils.ListHelper;
-import List.ListNode;
-
-import java.util.List;
+import DataStructure.List.ListNode;
 
 /**
  * num:92

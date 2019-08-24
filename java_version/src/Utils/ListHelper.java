@@ -1,6 +1,6 @@
 package Utils;
 
-import List.ListNode;
+import DataStructure.List.ListNode;
 
 import java.lang.reflect.Method;
 

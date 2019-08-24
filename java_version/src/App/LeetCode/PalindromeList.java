@@ -16,33 +16,17 @@ tag: list palindrome double-pointer
 输出: true
 
  */
-import List.ListNode;
-
-import java.lang.reflect.Array;
-import java.util.List;
+import DataStructure.List.ListNode;
 
 public class PalindromeList {
 
     public static class Solution {
-
-        public ListNode copyList(ListNode head){
-            ListNode tmp = new ListNode(head.val);
-            ListNode curNode = tmp;
-            head = head.next;
-            while (head != null){
-                curNode.next = new ListNode(head.val);
-                curNode = curNode.next;
-                head = head.next;
-            }
-            return tmp;
-        }
-
         public ListNode reverse(ListNode head){
             if(head == null)
                 return head;
 
             ListNode pre = null;
-            ListNode cur = copyList(head);
+            ListNode cur = new ListNode(head);
             ListNode next = null;
 
             while (cur != null){
@@ -55,8 +39,9 @@ public class PalindromeList {
         }
 
         public boolean isPalindrome(ListNode head) {
+            ListNode tmp = head;
             // 先翻转链表并存于一个新节点中
-            ListNode newNode = reverse(head);
+            ListNode newNode = reverse(tmp);
 
             // 依次比较两个链表
             ListNode curNode = head;
@@ -70,7 +55,7 @@ public class PalindromeList {
         }
     }
 
-    private static void test(int[] arr) {
+    private static void test(int arr[]) {
         ListNode head = new ListNode(arr);
         System.out.println(head);
         Solution s = new Solution();
@@ -78,19 +63,16 @@ public class PalindromeList {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 1,2,3};
+        int arr[] = {1, 1, 2, 1};
         test(arr);
 
-        int[] arr0 = {1, 1, 2, 1};
-        test(arr0);
-
-        int[] arr1 = {1, 2, 2, 1};
+        int arr1[] = {1, 2, 2, 1};
         test(arr1);
 
-        int[] arr2 = {1, 2, 1};
+        int arr2[] = {1, 2, 1};
         test(arr2);
 
-        int[] arr3 = {1};
+        int arr3[] = {1};
         test(arr3);
     }
 }

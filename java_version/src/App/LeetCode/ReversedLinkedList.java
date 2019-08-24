@@ -1,6 +1,6 @@
 package App.LeetCode;
 
-import List.ListNode;
+import DataStructure.List.ListNode;
 
 /**
 *

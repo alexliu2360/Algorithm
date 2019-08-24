@@ -1,9 +1,9 @@
 package Utils;
 
-import UnionFind.UnionFindId;
-import UnionFind.UnionFindTree;
-import UnionFind.UnionFindTreeRankOptimized;
-import UnionFind.UnionFindTreeSizeOptimized;
+import DataStructure.UnionFind.UnionFindId;
+import DataStructure.UnionFind.UnionFindTree;
+import DataStructure.UnionFind.UnionFindTreeRankOptimized;
+import DataStructure.UnionFind.UnionFindTreeSizeOptimized;
 
 // 测试并查集
 public class UnionFindTestHelper {
